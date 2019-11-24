@@ -1,0 +1,30 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  font-size: 1.125rem;
+}
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.bg-custom{
+  background-color: #1d3059;
+  background-color: #426cc7;
+  background-color: #083640;
+  background-color: #314877;
+}
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: .75rem;
+    padding-left: .75rem;
+  }
+}
