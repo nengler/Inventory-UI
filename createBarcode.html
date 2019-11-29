@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="css/createBarcode.css">
+<style media="screen">
+
+
+</style>
+</head>
+<body>
+  <div class="main">
+    <nav class="navbar navbar-expand-md navbar-dark bg-custom">
+      <div class="container-fluid">
+      <a class="navbar-brand" ><img src="img/csc_logo_resize.png" width="80" height="82"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="mainNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="home.html">HOME <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="">SCAN <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="">REPORT <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link " href="">CREATE BARCODE <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="">TREND REPORT <span class="sr-only"></span></a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container">
+    <div class="header">
+      <h2>Create Barcode</h2>
+    </div>
+    <div class="barcode-form">
+      <form class="" action="" method="post">
+        <div class="row">
+          <div class="col-md-6">
+            <label for="item-name">Item Name</label>
+            <input type="text" class="form-control" name="item-name" id="item-name">
+          </div>
+          <div class="col-md-6">
+            <label for="item-name">Item Description</label>
+            <textarea name="item-description" id="item-description" class="form-control" rows="5" cols="80"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <label for="initial-count">Initial Count</label>
+            <input type="number" class="form-control" name="item-count" value="item-count">
+          </div>
+          <div class="col-md-6">
+            <label for="category">Category</label>
+            <select name="category" class="form-control" >
+              <option value="category1">category1</option>
+              <option value="category2">category2</option>
+              <option value="category3">category3</option>
+              <option value="category4">category4</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="image-container">
+              <img src="img/barcodeImage.png" class="image-responsive"  height="225">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-lg btn-primary">Create New Barcode</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.container {
+  padding-top: 2rem;
+}
+
+.header {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.barcode-form {
+  padding-top: 2rem;
+}
+
+.row {
+  margin-bottom: 1rem;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
