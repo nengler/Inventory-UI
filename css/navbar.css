@@ -22,6 +22,7 @@ body {
   background-color: #083640;
   background-color: #314877;
 }
+
 @media (min-width: 768px) {
   .navbar-expand-md .navbar-nav .nav-link {
     padding-right: .75rem;

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/login.css">
+
+    <style media="screen">
+
+
+    </style>
+    <title>Report</title>
+</head>
+<body>
+<div class="main">
+    <nav class="navbar navbar-expand-md navbar-dark bg-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand" ><img src="img/csc_logo_resize.png" width="80" height="82"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="mainNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="">SCAN <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link " href="">REPORT <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="createBarcode.html">CREATE BARCODE <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="">TREND REPORT <span class="sr-only"></span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6"> <h3>Search Item:</h3>
+                <input type="text" class="form-control" name="item-name" id="search-item"
+            </div>
+        </div>
+        <div class="col-3"></div>
+
+        <!-- <div class="barcode-form">
+            <form class="" action="" method="post">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="search-item">
+                            <h3>Search Item:</h3>
+                        </label>
+                        <input type="text" class="form-control" name="item-name" id="search-item">
+                    </div>
+                </div>
+            </form>
+        </div> --!>
+        <div class="items-scanned">
+            <ul class="top-5-Header">
+                <li>Category 1:</li>
+            </ul>
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Item Name</th>
+                    <th scope="col">Item Description</th>
+                    <th scope="col">Count</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="col">1</th>
+                    <td>Bandaids: box of 10</td>
+                    <td>used for a small adhesive strip with a gauze pad for covering minor wounds.</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <th scope="col">2</th>
+                    <td>Syringes: box of 20</td>
+                    <td>medical device that is used to inject fluid into, or withdraw fluid from, the body</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <th scope="col">3</th>
+                    <td>Gauze</td>
+                    <td>loosely woven, almost translucent fabric that's used to bandage wounds</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th scope="col">4</th>
+                    <td>Gloves: box of 100</td>
+                    <td>disposable gloves used during medical examinations and procedures to help prevent cross-contamination between caregivers and patients</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <th scope="col">5</th>
+                    <td>Sthethoscope</td>
+                    <td>acoustic medical device for auscultation, or listening to the internal sounds of an animal or human body.</td>
+                    <td>5</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="items-scanned">
+            <ul class="top-5-Header">Category 2: </ul>
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Item Name</th>
+                    <th scope="col">Item Description</th>
+                    <th scope="col">Count</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="col">1</th>
+                    <td>Bandaids: box of 10</td>
+                    <td>used for a small adhesive strip with a gauze pad for covering minor wounds.</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <th scope="col">2</th>
+                    <td>Syringes: box of 20</td>
+                    <td>medical device that is used to inject fluid into, or withdraw fluid from, the body</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <th scope="col">3</th>
+                    <td>Gauze</td>
+                    <td>loosely woven, almost translucent fabric that's used to bandage wounds</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th scope="col">4</th>
+                    <td>Gloves: box of 100</td>
+                    <td>disposable gloves used during medical examinations and procedures to help prevent cross-contamination between caregivers and patients</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <th scope="col">5</th>
+                    <td>Sthethoscope</td>
+                    <td>acoustic medical device for auscultation, or listening to the internal sounds of an animal or human body.</td>
+                    <td>5</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
