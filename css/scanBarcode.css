@@ -1,0 +1,35 @@
+.spacing {
+}
+
+.container {
+  padding-top: 2rem;
+}
+
+.header {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.checkbox-buttons {
+  padding: 5rem 0 0 0;
+}
+
+.barcode-input {
+  padding: 5rem 0 0 0;
+}
+
+.barcode-response {
+  padding: 5rem 0 0 0;
+}
+
+.bigger-text {
+  font-size: 1.25rem;
+}
+
+textarea{
+  vertical-align:middle;
+}
+
+.form-control[readonly] {
+  background-color: white;
+}
