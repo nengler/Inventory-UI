@@ -18,28 +18,7 @@
     <nav class="navbar navbar-expand-md navbar-dark bg-custom">
         <div class="container-fluid">
             <a class="navbar-brand" ><img src="img/csc_logo_resize.png" width="80" height="82"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse text-center" id="mainNavbar">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link active" href="home.html">HOME <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="">SCAN <span class="sr-only"></span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="">REPORT <span class="sr-only"></span></a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link " href="">CREATE BARCODE <span class="sr-only"></span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="">TREND REPORT <span class="sr-only"></span></a>
-                    </li>
-                </ul>
-            </div>
+
         </div>
     </nav>
 </div>
@@ -50,6 +29,9 @@
         <div class="col-3">
         </div>
         <div class="col-6">
+          <form action="home.html" method="post">
+
+
             <h1>Login</h1>
             <label for="username">
                 Username:
@@ -60,7 +42,8 @@
             </label>
             <input type="text" class="form-control" name="password" id="password">
             <br/>
-            <button type="button" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
         </div>
         <div class="col-3">
 

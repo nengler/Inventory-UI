@@ -24,17 +24,20 @@
           <li class="nav-item ">
             <a class="nav-link" href="home.html">HOME <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link " href="scanBarcode.html">SCAN <span class="sr-only"></span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="">REPORT <span class="sr-only"></span></a>
-          </li>
           <li class="nav-item active">
             <a class="nav-link " href="">CREATE BARCODE <span class="sr-only"></span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="">TREND REPORT <span class="sr-only"></span></a>
+            <a class="nav-link " href="scanBarcode.html">SCAN <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="report.html">REPORT <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="trendReport.html">TREND REPORT <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link " href="login.html">LOGOUT <span class="sr-only"></span></a>
           </li>
         </ul>
       </div>
@@ -82,11 +85,28 @@
         </div>
         <div class="row">
           <div class="col-md-12">
-            <button type="submit" class="btn btn-lg btn-primary">Create New Barcode</button>
+            <button type="button" class="btn btn-lg btn-primary">Create New Barcode</button>
           </div>
         </div>
       </form>
     </div>
+    <div class="header">
+      <h2>Create New Barcode Category Category</h2>
+    </div>
+    <div class="barcode-form">
+      <form class="" action="" method="post">
+        <div class="row">
+          <div class="col-md-6">
+            <label for="item-name">Category Name</label>
+            <input type="text" class="form-control" name="item-name" id="item-name">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <button type="button" class="btn btn-lg btn-primary">Create New Category</button>
+          </div>
+        </div>
+      </div>
   </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>

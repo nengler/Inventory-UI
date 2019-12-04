@@ -1,10 +1,7 @@
-.container {
-  padding-top: 2rem;
-}
-
 .header {
   text-align: center;
   text-decoration: underline;
+  margin-top: 2rem;
 }
 
 .barcode-form {
@@ -18,4 +15,8 @@
 .image-container {
   display: flex;
   justify-content: center;
+}
+
+.container {
+  margin-bottom: 3rem;
 }
